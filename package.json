@@ -34,5 +34,15 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "data",
+    "operator",
+    "store",
+    "set",
+    "get",
+    "sets",
+    "gets"
+  ]
 }

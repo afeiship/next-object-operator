@@ -3,7 +3,7 @@
  * description: Object set/get/sets/gets and other operator.
  * homepage: https://github.com/afeiship/next-object-operator
  * version: 1.0.0
- * date: 2020-11-20 17:48:25
+ * date: 2020-11-20 17:49:34
  * license: MIT
  */
 
