@@ -1,6 +1,15 @@
-(function () {
+/*!
+ * name: @jswork/next-object-operator
+ * description: Object set/get/sets/gets and other operator.
+ * homepage: https://github.com/afeiship/next-object-operator
+ * version: 1.0.0
+ * date: 2020-11-20 17:48:25
+ * license: MIT
+ */
+
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   var NxObjectOperator = nx.declare('nx.ObjectOperator', {
     methods: {

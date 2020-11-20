@@ -1,13 +1,12 @@
-(function () {
-  var nx = require('@feizheng/next-js-core2');
-  var NxObjectOperator = require('../src/next-object-operator');
+(function() {
+  const NxObjectOperator = require('../src');
 
-  describe('NxObjectOperator', function () {
+  describe('NxObjectOperator.methods', function() {
     test('set can change the value', function () {
       var data = {};
       var operator = new NxObjectOperator(data);
       operator.set('name', 'afei');
-      expect(data).toEqual({ name: 'afei' })
+      expect(data).toEqual({ name: 'afei' });
     });
 
     test('get should get the right value', function () {

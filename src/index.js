@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-object-operator
- * description: Object set/get/sets/gets and other operator.
- * homepage: https://github.com/afeiship/next-object-operator
- * version: 1.0.0
- * date: 2020-06-06T03:14:14.905Z
- * license: MIT
- */
-
-(function () {
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   var NxObjectOperator = nx.declare('nx.ObjectOperator', {
     methods: {
@@ -41,5 +32,3 @@
     module.exports = NxObjectOperator;
   }
 })();
-
-//# sourceMappingURL=next-object-operator.js.map
