@@ -9,6 +9,14 @@
       expect(data).toEqual({ name: 'afei' });
     });
 
+    test('set can prevent prototype pollution', function () {
+      var data = {};
+      var operator = new NxObjectOperator(data);
+      operator.set('__proto__.polluted', 'Yes, its polluted.');
+      expect(data.polluted).toEqual(undefined);
+      expect({}.polluted).toEqual(undefined);
+    });
+
     test('get should get the right value', function () {
       var data = {};
       var operator = new NxObjectOperator(data);
