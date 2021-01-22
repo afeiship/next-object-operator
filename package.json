@@ -44,5 +44,8 @@
     "get",
     "sets",
     "gets"
-  ]
+  ],
+  "dependencies": {
+    "@jswork/next-is-plain-object": "^1.0.2"
+  }
 }

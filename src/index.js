@@ -1,10 +1,13 @@
-(function() {
-  var global = global || this || window || Function('return this')();
+(function () {
+  var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
+  var isPlainObject = nx.isPlainObject || require('@jswork/next-is-plain-object');
+  var MSG_PLAIN_ERR = 'Must be plain object.';
 
   var NxObjectOperator = nx.declare('nx.ObjectOperator', {
     methods: {
       init: function (inData) {
+        !isPlainObject(inData) && nx.error(MSG_PLAIN_ERR);
         this.data = inData;
       },
       set: function (inPath, inValue) {
