@@ -3,7 +3,7 @@
  * description: Object set/get/sets/gets and other operator.
  * homepage: https://github.com/afeiship/next-object-operator
  * version: 1.0.0
- * date: 2021-01-22 12:59:42
+ * date: 2021-01-27 16:56:42
  * license: MIT
  */
 
@@ -26,7 +26,7 @@
         nx.forIn(
           inObject,
           function (key, value) {
-            nx.set(this.data, key, value);
+            this.set(key, value);
           },
           this
         );

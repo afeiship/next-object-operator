@@ -17,7 +17,7 @@
         nx.forIn(
           inObject,
           function (key, value) {
-            nx.set(this.data, key, value);
+            this.set(key, value);
           },
           this
         );
