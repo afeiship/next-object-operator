@@ -2,8 +2,8 @@
  * name: @jswork/next-object-operator
  * description: Object set/get/sets/gets and other operator.
  * homepage: https://github.com/afeiship/next-object-operator
- * version: 1.0.0
- * date: 2021-01-27 16:56:42
+ * version: 1.0.1
+ * date: 2021-01-27 16:57:29
  * license: MIT
  */
 

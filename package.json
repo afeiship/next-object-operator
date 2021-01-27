@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-object-operator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Object set/get/sets/gets and other operator.",
   "homepage": "https://github.com/afeiship/next-object-operator",
   "author": {
