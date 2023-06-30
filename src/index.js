@@ -6,7 +6,7 @@ const MSG_PLAIN_ERR = 'Must be plain object.';
 const NxObjectOperator = nx.declare('nx.ObjectOperator', {
   methods: {
     init: function (inData) {
-      !isPlainObject(inData) && nx.error(MSG_PLAIN_ERR);
+      !nx.isPlainObject(inData) && nx.error(MSG_PLAIN_ERR);
       this.data = inData;
     },
     set: function (inPath, inValue) {

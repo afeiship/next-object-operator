@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-object-operator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Object set/get/sets/gets and other operator.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,18 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "dependencies": {
+    "@jswork/next-is-plain-object": "^1.0.4"
+  },
+  "keywords": [
+    "next",
+    "data",
+    "operator",
+    "store",
+    "set",
+    "get",
+    "sets",
+    "gets"
+  ]
 }
